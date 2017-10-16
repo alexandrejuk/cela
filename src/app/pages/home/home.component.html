@@ -1,3 +1,22 @@
-<p>
-  home works!
-</p>
+<div class="container">
+<div class="row mt-4">
+  <div class="col-12 text-center">
+    <h2>Bem vindo a Cela!</h2>
+  </div>
+
+  <div class="col-3 " *ngFor="let tutor of tutors">
+      <div class="card" >
+        <img class="card-img-top" src="{{tutor.img}}" alt="Card image cap">
+        <div class="card-body">
+          <h4 class="card-title">{{ tutor.name }}</h4>
+          <p class="card-text">Some quick example text to build o.</p>
+        </div>
+
+        <div class="card-body">
+          <a href="#" class="card-link">Começar o curso</a>
+        </div>
+      </div>
+    </div>
+
+</div>
+</div>
