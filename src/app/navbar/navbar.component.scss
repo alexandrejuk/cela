@@ -42,3 +42,10 @@
 .dropdown:hover .dropdown-content {
   display: block;
 }
+ .btn {
+   &:hover {
+     background-color: #ddd !important;
+     color: #2494db !important;
+   }
+   background: none !important;
+ }
