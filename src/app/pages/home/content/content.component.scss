@@ -1,15 +1,12 @@
 .panel {
+  &:hover {
+    box-shadow: 5px 0px 40px rgba(0, 0, 0, 0.2);
+  }
   border: 5px 0px 40px rgba(0, 0, 0, 0.2);
   border-radius: 0;
   transition: box-shadow 0.5s;
-  width: 240px;
-  height: 280px;
   h5 {
     font-size: 18px;
-  }
-  .img-card {
-    height: 135px;
-    width: 240px;
   }
   .author {
     color: #909090;
@@ -26,6 +23,3 @@
   }
 }
 
-.panel:hover {
-  box-shadow: 5px 0px 40px rgba(0, 0, 0, 0.2);
-}
