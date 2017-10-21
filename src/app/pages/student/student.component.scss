@@ -1,0 +1,24 @@
+.student {
+  overflow: hidden;
+  background-color: #2494db;
+  font-family: Arial;
+  color: #fff;
+  height: 130px;
+  h2 {
+    padding-top: 25px;
+  }
+}
+.navbar {
+  overflow: hidden;
+  font-family: Arial;
+  margin: 0 0 0 0;
+}
+.btn {
+  background: none !important;
+  border: none !important;
+  color: #fff;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+

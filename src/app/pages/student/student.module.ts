@@ -1,8 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
-import { HomeComponent } from './home.component';
-import { routing } from './home.routing';
+import { StudentComponent } from './student.component';
+import { routing } from './student.routing';
 import { ContentComponent } from './content/content.component';
 
 @NgModule({
@@ -10,6 +9,6 @@ import { ContentComponent } from './content/content.component';
     CommonModule,
     routing
   ],
-  declarations: [HomeComponent, ContentComponent]
+  declarations: [StudentComponent, ContentComponent]
 })
-export class HomeModule { }
+export class StudentModule { }
